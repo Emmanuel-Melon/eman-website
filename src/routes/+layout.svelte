@@ -1,4 +1,14 @@
 <script>
 	import '../app.css';
 </script>
-<slot />
+
+<svelte:head>
+  <title>Eman</title>
+  <meta
+    name="description"
+    content="Emmanuel Gatwech"
+  />
+</svelte:head>
+<main>
+	<slot />
+</main>
