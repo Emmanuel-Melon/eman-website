@@ -149,6 +149,18 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.37.0.tgz#cf1b5fa24217fe007f6487a26d765274925efa7d"
   integrity sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==
 
+"@floating-ui/core@^0.7.2":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-0.7.3.tgz#d274116678ffae87f6b60e90f88cc4083eefab86"
+  integrity sha512-buc8BXHmG9l82+OQXOFU3Kr2XQx9ys01U/Q9HMIrZ300iLc8HLMgh7dcCqgYzAzf4BkoQvDcXf5Y+CuEZ5JBYg==
+
+"@floating-ui/dom@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-0.5.2.tgz#908f3febbfc0d6696d70921616ec194fe07af183"
+  integrity sha512-z1DnEa7F3d8Fm/eXSbii8UEGpcjZGkQaYYUI0WpEVgD3vBfebDW8j/3ysusxonuMexoigA+A3b/fYH7sEqiwyg==
+  dependencies:
+    "@floating-ui/core" "^0.7.2"
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
@@ -167,6 +179,11 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
+
+"@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
@@ -249,13 +266,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@skeletonlabs/skeleton@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@skeletonlabs/skeleton/-/skeleton-1.5.1.tgz#298e94280566456e44172c6ab1629fa916e0dc82"
-  integrity sha512-b5D6vyUgE69XRbe9D3ImqJZHIRzEKwIa4HQik6LckjzgrfgUmTSeZXRdZeCuEVNI+6hdDcgTx4Brg9/8phcEeg==
-  dependencies:
-    esm-env "^1.0.0"
-    svelte "^3.58.0"
+"@stitches/core@1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@stitches/core/-/core-1.2.8.tgz#dce3b8fdc764fbc6dbea30c83b73bfb52cf96173"
+  integrity sha512-Gfkvwk9o9kE9r9XNBmJRfV8zONvXThnm1tcuojL04Uy5uRyqg93DC83lDebl0rocZCfKSjUv+fWYtMQmEDJldg==
 
 "@sveltejs/adapter-auto@^2.0.0":
   version "2.0.0"
@@ -294,6 +308,49 @@
     magic-string "^0.30.0"
     svelte-hmr "^0.15.1"
     vitefu "^0.2.4"
+
+"@sveltestack/svelte-query@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@sveltestack/svelte-query/-/svelte-query-1.6.0.tgz#d175863557a7abe6a8dcb0da2080a9f43ae8d1d1"
+  integrity sha512-C0wWuh6av1zu3Pzwrg6EQmX3BhDZQ4gMAdYu6Tfv4bjbEZTB00uEDz52z92IZdONh+iUKuyo0xRZ2e16k2Xifg==
+
+"@svelteuidev/composables@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@svelteuidev/composables/-/composables-0.12.1.tgz#1782ee826aadbcc58d5df32338e4614cc4570fa2"
+  integrity sha512-4w17gQex9mcJZhYvzuKxT5X1bDVWJQFjThZif32DKEKi9iL9adD2zScckjidEnP8kHZBntEhUF7a64ofgNtRsA==
+
+"@svelteuidev/core@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@svelteuidev/core/-/core-0.12.1.tgz#3b11e1b9ac287183237605efd01424068ff27e31"
+  integrity sha512-dWpGl2ATc7BMLZLtK7eg4OPMP1AGlfWW+cxjeAPAwcjS/AimvnXo5fNwHHnRNRG2r3fGW1LHTXROHByPHQw0OA==
+  dependencies:
+    "@floating-ui/dom" "0.5.2"
+    "@stitches/core" "1.2.8"
+
+"@svelteuidev/dates@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@svelteuidev/dates/-/dates-0.12.1.tgz#030fa490a4e8456d76c7908a23584234aea5d916"
+  integrity sha512-fdmjXK+k7J2tVE3ENGLgjLHPgce3oYKigrhSvSDXJ+f4SoPJuFDuYGUS3Q20QgSxsGkr6OV1Mu36V/vP3lADBw==
+  dependencies:
+    dayjs "1.11.1"
+
+"@svelteuidev/motion@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@svelteuidev/motion/-/motion-0.12.1.tgz#cef274594295f51b80f1e75a2ed01ab1df301f58"
+  integrity sha512-q4t8ge6RiOtI5JXGXkMX6TcdHjukFowMjr/fpXnKyMBilEYhjCTYH/7e75XWSdhW87XR4/tKSaExAvVCUZHeyg==
+
+"@svelteuidev/preprocessors@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@svelteuidev/preprocessors/-/preprocessors-0.12.1.tgz#c4f5236fc45fb77cf2c6877097e196ca588b770f"
+  integrity sha512-odxmj9NWcRb9xJmRqtJ7IdWcC0YTOwtMy7UNpwhYhEAMeWqeq/cStQLeeR8sDgiXcrUfDZ4tXhznIuZp0uNOhQ==
+
+"@svelteuidev/prism@^0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@svelteuidev/prism/-/prism-0.12.1.tgz#82fd283e9ca18aaaf2e3fc8a2e1c2c98ab2cec1f"
+  integrity sha512-DU2/NKJhxmcnqoiva/j/2js1LS88EkQg3FxE7iXQbkFxCMuquCcmn76LjEN1CnRXpDKOlzS4vBYopryb6g4wWQ==
+  dependencies:
+    prism-svelte "0.5.0"
+    prismjs "1.28.0"
 
 "@tailwindcss/typography@^0.5.9":
   version "0.5.9"
@@ -685,6 +742,11 @@ daisyui@^2.51.5:
     css-selector-tokenizer "^0.8.0"
     postcss-js "^4.0.0"
     tailwindcss "^3"
+
+dayjs@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.1.tgz#90b33a3dda3417258d48ad2771b415def6545eb0"
+  integrity sha512-ER7EjqVAMkRRsxNCC5YqJ9d9VQYuWdGt7aiH2qA5R5wt8ZmWaP2dLUSIK6y/kVzLMlmh1Tvu5xUf4M/wdGJ5KA==
 
 debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
@@ -1098,6 +1160,13 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
+
+iconify-icon@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/iconify-icon/-/iconify-icon-1.0.7.tgz#d7e1f5d45a88486abcc977583da62e6e9e635572"
+  integrity sha512-MxaO3Jhf3f5ymPWGHR9x74f90TNKcq1D+B2iGucGhVtqAgbC9EtM06kKiTGH2CKELNnexckwhrA3/+OpT4HKFw==
+  dependencies:
+    "@iconify/types" "^2.0.0"
 
 ignore@^5.2.0:
   version "5.2.4"
@@ -1603,6 +1672,16 @@ prettier@^2.8.0:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
   integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
+prism-svelte@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/prism-svelte/-/prism-svelte-0.5.0.tgz#c4aeffeaddb179cfef213aab91ee785b66d22992"
+  integrity sha512-db91Bf3pRGKDPz1lAqLFSJXeW13mulUJxhycysFpfXV5MIK7RgWWK2E5aPAa71s8TCzQUXxF5JOV42/iOs6QkA==
+
+prismjs@1.28.0:
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.28.0.tgz#0d8f561fa0f7cf6ebca901747828b149147044b6"
+  integrity sha512-8aaXdYvl1F7iC7Xm1spqSaY/OJBpYW3v+KJ+F17iYxvdc8sfjW194COK5wVhMZX45tGteiBQgdvD/nhxcRwylw==
+
 punycode@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
@@ -1872,11 +1951,6 @@ svelte@^3.54.0:
   version "3.58.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.58.0.tgz#d3e6f103efd6129e51c7d709225ad3b4c052b64e"
   integrity sha512-brIBNNB76mXFmU/Kerm4wFnkskBbluBDCjx/8TcpYRb298Yh2dztS2kQ6bhtjMcvUhd5ynClfwpz5h2gnzdQ1A==
-
-svelte@^3.58.0:
-  version "3.59.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.59.1.tgz#3de3d56b9165748f32f3131589b8d183cabe7449"
-  integrity sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==
 
 tailwindcss@^3:
   version "3.3.1"
