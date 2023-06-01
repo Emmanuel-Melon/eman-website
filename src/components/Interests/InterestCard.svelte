@@ -15,18 +15,18 @@
     </div>
     <div class={`w-1/4 stats stats-vertical shadow rounded-none border-secondary border-double ${ interest.position === "left" ? "border-l-4" : "border-r-4"}`}>
         <div class="stat">
-          <div class="stat-title">{interest.stats.label}</div>
-          <div class="stat-value">{interest.stats.value}</div>
+          <div class="stat-title">{interest.first.label}</div>
+          <div class="stat-value">{interest.first.value}</div>
         </div>
         
         <div class="stat">
-          <div class="stat-title">New Users</div>
-          <div class="stat-value">4,200</div>
+          <div class="stat-title">{interest.second.label}</div>
+          <div class="stat-value">{interest.second.value}</div>
         </div>
         
         <div class="stat">
-          <div class="stat-title">New Registers</div>
-          <div class="stat-value">1,200</div>
+          <div class="stat-title">{interest.third.label}</div>
+          <div class="stat-value">{interest.third.value}</div>
         </div>
       </div>
 </div>

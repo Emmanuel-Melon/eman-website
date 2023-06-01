@@ -12,9 +12,17 @@
 				'I actively contribute to various projects on GitHub. By collaborating with talented developers from around the globe, we drive innovation, create cutting-edge solutions, and make technology accessible to all. Through my contributions, I have the opportunity to hone my skills, learn from industry experts, and give back to the developer community.',
                 icon: 'ri:open-source-line',
             position: "left",
-            stats: {
+            first: {
                 label: "Repositories",
                 value: "74"
+            },
+            second: {
+                label: "Pull Requests",
+                value: "209"
+            },
+            third: {
+                label: "Followers",
+                value: "70"
             }
 		},
 		{
@@ -24,9 +32,17 @@
 				'I strive to demystify intricate topics, provide insights, and empower fellow developers on their learning journey. By distilling my experiences and expertise into engaging content, I aim to foster a culture of continuous learning and contribute to the growth of the developer community.',
                 icon: 'ri:article-line',
             position: "right",
-            stats: {
+            first: {
                 label: "Article Views",
                 value: "10502"
+            },
+            second: {
+                label: "Articles Published",
+                value: "13"
+            },
+            third: {
+                label: "Followers",
+                value: "50"
             }
 		}
 	];

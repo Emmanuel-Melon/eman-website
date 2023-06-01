@@ -58,7 +58,7 @@
               <li class="flex items-center gap-2"><iconify-icon icon="ri:building-line" /> SyncNet</li>
               <li class="flex items-center gap-2"><iconify-icon icon="ri:map-pin-user-line" /> Doha, Qatar</li>
             </ul>
-            <div class="divider text-accent">Let's Talk</div>
+            <div class="divider text-secondary">Let's Talk</div>
             <div class="flex items-center gap-4 mx-auto w-fit">
               {#each links as { icon, path, title }}
               <div class="tooltip tooltip-bottom tooltip-accent" data-tip={title}>
@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="w-3/5 h-fit grow space-y-4 p-8">
-          <p class="text-lg">Eman &amp; the E is for <span class="text-accent">Energy!</span></p>
+          <p class="text-lg">Eman &amp; the E is for <span class="text-primary">Energy!</span></p>
           <h1 class="text-5xl font-bold">Hello, I’m Emmanuel Gatwech</h1>
           <p>
             I have a track record of delivering high-quality products and adding value to distributed teams around the world. My technical expertise includes TypeScript, Next.js, GraphQL, Redis, PostgreSQL, Node.js, and Rust, and I am passionate about web performance, developer tooling, technical writing, and open source.</p>
