@@ -19,9 +19,12 @@
 
 <div class="card rounded-none lg:card-side bg-base-100 shadow">
 	<div class="card-body">
-		<h2 class="card-title text-xl">{experience.title} <span class="text-secondary-focus text-md">{experience.duration}</span></h2>
-		<h3 class="text-primary text-xl">
-			<a class="link link-hover" href={experience.url}>{experience.name}</a> <span class="text-secondary-focus"> - {experience.location}</span>
+		<div class="flex items-center gap-2">
+			<h2 class="card-title text-2xl">{experience.title}</h2>
+			<div class="badge badge-lg">{experience.duration}</div>
+		</div>
+		<h3 class="text-primary">
+			<a class="link link-hover" href={experience.url}>{experience.name}</a> <span class="text-neutral-focus"> - {experience.location}</span>
 		</h3>
 		<p>{experience.description}</p>
 		<div class="divider">Tech Stack</div>

@@ -36,13 +36,6 @@
 
 <SectionWrapper>
     <div class="p-4 space-y-4">
-        <div class="text-center space-y-4">
-            <h3 class="text-3xl font-bold">Projects</h3>
-            <p>
-                I thrive on solving complex challenges and finding elegant solutions that push the boundaries
-                of what's possible.
-            </p>
-        </div>
         <div class="space-y-4">
             {#each projects as project}
             <ProjectOverview {project} />

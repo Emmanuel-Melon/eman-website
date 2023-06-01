@@ -8,6 +8,6 @@
 </script>
 
 <Hero />
-<Bio />
 <Experience />
 <InterestsList />
+<Bio />

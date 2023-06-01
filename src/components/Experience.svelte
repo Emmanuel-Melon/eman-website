@@ -5,15 +5,16 @@
 	import freelyformd from '$lib/images/freelyformd.png';
 	import SectionWrapper from './SectionWrapper.svelte';
 	import ExperienceCard from './ExperienceCard.svelte';
+	import { customGradient } from './utils/ui';
 	const experiences = [
 		{
 			id: 1,
 			name: 'MindsDB',
 			description:
-				'MindsDB is a fast-growing open-source infrastructure company that enables developers to quickly integrate machine learning into applications. Connect any data source with any AI framework easily, all in one place.',
+				'MindsDB is a fast-growing open-source infrastructure company that enables developers to quickly integrate machine learning into applications. In-Database Machine Learning: For time-series & anomaly detection.',
 			tags: ['Svelte', 'Node'],
 			image: mindsdb,
-			location: "Remote",
+			location: "San Jose, California, United States",
 			url: "",
 			title: 'Integrations Maintainer',
 			duration: 'June 2023 - Present',
@@ -74,7 +75,7 @@
 			location: "San Fransisco, California",
 			url: "",
 			title: 'Software Engineer',
-			duration: 'May 2023 - Present',
+			duration: 'May 2021 - Sep 2022',
 			stack: [
 				{
 					title: 'MongoDB'
@@ -103,7 +104,7 @@
 			location: "Kampala, Uganda",
 			url: "",
 			title: 'Software Engineer',
-			duration: 'May 2023 - Present',
+			duration: 'Jun 2020 - Apr 2021',
 			stack: [
 				{
 					title: 'MongoDB',
@@ -129,12 +130,15 @@
 </script>
 
 <SectionWrapper>
-	<div class="space-y-4 p-8 w-9/12">
-		<div class="text-center space-y-4">
-			<h3 class="text-3xl font-bold">Experience</h3>
+	<div>
+		<div class="text-center space-y-4 bg-base-200 p-8">
+			<h3 class="text-3xl font-bold">Experiences</h3>
+			<p>As a software developer with over 5 years of experience, I always strive to add value and I take a proactive approach to my work and place a strong emphasis on clear and effective communication.</p>
 		</div>
-		{#each experiences as experience}
-			<ExperienceCard {experience} />
-		{/each}
+		<div class="space-y-4 p-8 w-9/12 mx-auto">
+			{#each experiences as experience}
+				<ExperienceCard {experience} />
+			{/each}
+		</div>
 	</div>
 </SectionWrapper>
