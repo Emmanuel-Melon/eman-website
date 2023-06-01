@@ -43,7 +43,7 @@
                 of what's possible.
             </p>
         </div>
-        <div class="p-4 space-y-4">
+        <div class="space-y-4">
             {#each projects as project}
             <ProjectOverview {project} />
            {/each}

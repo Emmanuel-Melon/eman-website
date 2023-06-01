@@ -10,3 +10,4 @@
 <Hero />
 <Bio />
 <Experience />
+<InterestsList />

@@ -17,7 +17,7 @@
 		}
 	];
 </script>
-<footer class="footer footer-center p-10 bg-primary text-primary-content border-t-4 border-accent border-double shadow-2xl">
+<footer class="footer footer-center p-10">
   <div>
     <iconify-icon icon="ri:plug-2-line" height="50" target="_blank" width="50" />
     <p class="font-bold">
