@@ -26,7 +26,7 @@
 			{#each links as { icon, title, href }}
 				<li><a {href}><iconify-icon {icon} />{title}</a></li>
 			{/each}
-			<li><a class="btn btn-primary" href='https://docs.google.com/document/d/1R3nD1VyCwJjwhzpoz8jDn0aKqxoyN2kVRkpHTip4HPY/edit?usp=sharing' target="_blank"><iconify-icon icon='ri:article-line' />Resume</a></li>
+
 		</ul>
 	</div>
 </nav>

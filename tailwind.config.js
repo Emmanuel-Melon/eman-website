@@ -9,7 +9,7 @@ module.exports = {
 		  },
 	},
 	daisyui: {
-		themes: ['cupcake']
+		themes: ['coffee']
 	},
 	plugins: [require('daisyui'), require('@tailwindcss/typography')]
 };

@@ -19,18 +19,16 @@
 
 <div class="card rounded-none lg:card-side bg-base-100 shadow">
 	<div class="card-body">
-		<div class="flex items-center gap-2">
-			<h2 class="card-title text-2xl">{experience.title}</h2>
-			<div class="badge badge-lg">{experience.duration}</div>
+		<div class="flex justify-between items-center">
+			<h3 class="card-title text-3xl text-primary">{experience.title}</h3>
 		</div>
-		<h3 class="text-primary">
-			<a class="link link-hover" href={experience.url}>{experience.name}</a> <span class="text-neutral-focus"> - {experience.location}</span>
-		</h3>
+		<div class="flex justify-between items-center text-accent">
+			<a class="link link-hover gap-4" href={experience.url}><iconify-icon icon="ri:briefcase-line" /> {experience.name}</a>
+		</div>
 		<p>{experience.description}</p>
-		<div class="divider">Tech Stack</div>
 		<div class="flex gap-2 items-center">
 			{#each experience.stack as { title }}
-				<div class="badge badge-lg badge-outline">{title}</div>
+				<div class="badge badge-lg badge-secondary">{title}</div>
 			{/each}
 		</div>
 	</div>

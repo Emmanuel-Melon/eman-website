@@ -52,7 +52,7 @@
 <SectionWrapper>
     <div class="h-full">
         <div class="text-center space-y-4 bg-base-200 p-8 mb-4">
-            <h3 class="text-3xl font-bold">Things I'm Passionate About</h3>
+            <h3 class="text-3xl font-bold text-primary">Things I'm Passionate About</h3>
             <p>
                 Join me on this journey as we explore the endless possibilities of software development,
                 push boundaries, and create impactful solutions together. Let's build something

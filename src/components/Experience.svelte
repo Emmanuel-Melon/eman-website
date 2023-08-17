@@ -8,35 +8,6 @@
 	import { customGradient } from './utils/ui';
 	const experiences = [
 		{
-			id: 1,
-			name: 'MindsDB',
-			description:
-				'MindsDB is a fast-growing open-source infrastructure company that enables developers to quickly integrate machine learning into applications. In-Database Machine Learning: For time-series & anomaly detection.',
-			tags: ['Svelte', 'Node'],
-			image: mindsdb,
-			location: "San Jose, California, United States",
-			url: "",
-			title: 'Integrations Maintainer',
-			duration: 'June 2023 - Present',
-			stack: [
-				{
-					title: 'Python'
-				},
-				{
-					title: 'PostgreSQL'
-				},
-				{
-					title: 'SnowFlake'
-				},
-				{
-					title: 'MongoDB'
-				},
-				{
-					title: 'ClickHouse'
-				}
-			]
-		},
-		{
 			id: 2,
 			name: 'Planet Of The Bugs',
 			description:
@@ -131,10 +102,6 @@
 
 <SectionWrapper>
 	<div>
-		<div class="text-center space-y-4 bg-base-200 p-8">
-			<h3 class="text-3xl font-bold">Experiences</h3>
-			<p>As a software developer with over 5 years of experience, I always strive to add value and I take a proactive approach to my work and place a strong emphasis on clear and effective communication.</p>
-		</div>
 		<div class="space-y-4 p-8 w-9/12 mx-auto">
 			{#each experiences as experience}
 				<ExperienceCard {experience} />
