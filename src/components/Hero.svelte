@@ -45,27 +45,15 @@
 	<div class="hero-content backdrop-blur-lg">
 		<div class="w-2/5 h-fit grow space-y-4 p-8 mx-auto">
 			<p class="text-lg">Eman &amp; the E is for <span class={`text-primary`}>Energy!</span></p>
-			<h1 class={`text-5xl font-bold ${customGradient()}`}>Hello, I’m Emmanuel Gatwech</h1>
+			<h1 class={`text-5xl font-bold`}>Hello, I’m Emmanuel Gatwech</h1>
 			<p>
-				I've consistently brought top-notch products to life and made meaningful contributions to
-				teams across the globe. My tech skills cover TypeScript, Next.js, GraphQL, Redis,
-				PostgreSQL, Node.js, and Rust, and I am passionate about web performance, developer tooling,
-				technical writing, and open source.
+				Emmanuel Gatwech, is a software developer with over four years of experience, having worked on a wide range of projects in various sectors. His commitment to efficiency and problem-solving is evident in his work. He is committed to advancing technology for the benefit of all.
 			</p>
 			<a
 				class="btn btn-sm btn-primary gap-2"
 				href="https://docs.google.com/document/d/1R3nD1VyCwJjwhzpoz8jDn0aKqxoyN2kVRkpHTip4HPY/edit?usp=sharing"
 				target="_blank"><iconify-icon icon="ri:article-line" />My Resume</a
 			>
-			<h3>Things I'm Passionate About</h3>
-			<div class="flex gap-2">
-				{#each interests as { icon, name }}
-					<div class="badge badge-lg badge-secondary flex gap-2">
-						<iconify-icon {icon} />
-						{name}
-					</div>
-				{/each}
-			</div>
 		</div>
 	</div>
 </div>

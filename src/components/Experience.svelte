@@ -100,7 +100,7 @@
 	];
 </script>
 
-<SectionWrapper bg="rose-900">
+<SectionWrapper bg="gray-100">
 	<div>
 		<div class="space-y-4 p-8 w-9/12 mx-auto">
 			{#each experiences as experience}

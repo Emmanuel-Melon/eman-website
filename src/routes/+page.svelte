@@ -8,5 +8,4 @@
 
 <Hero />
 <Experience />
-<InterestsList />
 <Bio />

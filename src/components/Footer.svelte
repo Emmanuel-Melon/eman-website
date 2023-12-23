@@ -25,13 +25,4 @@
     </p> 
     <p>Copyright © 2023 - All right reserved</p>
   </div> 
-  <div>
-    <div class="flex items-center gap-4">
-      {#each links as { icon, path, title }}
-      <div class="tooltip tooltip-bottom tooltip-accent" data-tip={title}>
-        <a href={path}><iconify-icon {icon} height="40" target="_blank" width="40" /></a>
-      </div>
-      {/each}
-    </div>
-  </div>
 </footer>
