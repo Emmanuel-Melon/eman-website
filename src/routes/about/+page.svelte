@@ -5,31 +5,18 @@
 	import Journey from '../../components/Journey.svelte';
 </script>
 
-<div class="text-center space-y-4 bg-base-200 p-4 mb-4">
-	<h1 class={`text-5xl font-bold mx-auto ${customGradient()}`}>The Energy Man</h1>
+<div class="text-center space-y-4 p-4 mb-4">
+	<h1 class={`text-5xl font-bold mx-auto`}>The Energy Man</h1>
 </div>
 <SectionWrapper>
-	<div class="space-y-4 w-3/5">
-		<p>
-			Emmanuel Gatwech, is a software developer with over four years of experience, having worked on
-			a wide range of projects in various sectors. His commitment to efficiency and problem-solving
-			is evident in his work.  He is committed to advancing technology for the benefit of all.
-		</p>
+	<div class="space-y-4 grow">
 		<div class="flex gap-2">
-			<div class="card shadow grow basis-3/6">
-				<div class="card-body">
-					<h3 class="card-title">Founder</h3>
-					<p>Currently, he is the founder of Sahil, a comprehensive platform that
-						simplifies procurement processes, connects businesses with reliable suppliers, and ensures
-						swift, efficient deliveries.</p>
-				</div>
-			</div>
-			<div class="card shadow grow basis-3/6">
-				<div class="card-body">
-					<h3 class="card-title">Open Sourcer</h3>
-					<p>a hub for collaborative learning among developers</p>
-				</div>
-			</div>
+			<p>I am a software developer with over four years of experience and a passion for building innovative solutions that address real-world problems, having worked on various projects in various sectors. I am the founder of Sahil, a logistics platform tailored to the needs of businesses in emerging markets, specifically targeting those with lower digital literacy rates or limited access to the internet. Sahil aims to enable these businesses to manage their supply chain operations efficiently, bridging the gap between traditional logistics and modern digital platforms.</p>
+
+		</div>
+
+		<div>
+			<p>a hub for collaborative learning among developers</p>
 		</div>
 		<div class="flex gap-8 items-center">
 			<div>

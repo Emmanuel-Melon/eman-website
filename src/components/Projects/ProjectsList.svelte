@@ -44,11 +44,9 @@
 </script>
 
 <SectionWrapper>
-    <div class="p-4 space-y-4">
-        <div class="space-y-4">
-            {#each projects as project}
-            <ProjectOverview {project} />
-           {/each}
-        </div>
+    <div class="flex flex-wrap gap-4">
+        {#each projects as project}
+        <ProjectOverview {project} />
+       {/each}
     </div>
 </SectionWrapper>

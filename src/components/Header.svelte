@@ -2,21 +2,9 @@
 	import 'iconify-icon';
 	const links = [
 		{
-			id: 2,
-			href: '/sahil',
-			title: 'Sahil',
-			icon: 'ri:aliens-line'
-		},
-		{
-			id: 4,
-			href: '/bugs',
-			title: 'Planet of The Bugs',
-			icon: 'ri:aliens-line'
-		},
-		{
 			id: 1,
 			href: '/portfolio',
-			title: 'Portfolio',
+			title: 'Projects',
 			icon: 'ri:cpu-line'
 		},
 		{
@@ -24,11 +12,17 @@
 			href: '/about',
 			title: 'About Me',
 			icon: 'ri:aliens-line'
+		},
+		{
+			id: 3,
+			href: '/contact',
+			title: 'Contact',
+			icon: 'ri:phone-line'
 		}
 	];
 </script>
 
-<header class="bg-primary shadow text-white">
+<header>
 	<nav class="navbar items-center justify-between">
 		<div class="navbar-start gap-2">
 			<a class="link link-hover normal-case text-2xl flex items-center gap-2" href="/">Eman</a>

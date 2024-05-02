@@ -12,11 +12,11 @@
 
 	<div class="card-body bg-base-100">
 		<div class="flex items-center justify-between">
-			<h2 class="card-title text-primary text-xl">
+			<h2 class="card-title text-sm">
 				{project.title}
 			</h2>
 		</div>
-		<p>{project.description}</p>
+		<p class="text-gray-600">{project.description}</p>
 		<div class="card-actions flex-start gap-2">
 			<button class="btn btn-sm btn-outline flex gap-2 items-center"
 				><iconify-icon icon="ri:computer-line" /> Demo</button
