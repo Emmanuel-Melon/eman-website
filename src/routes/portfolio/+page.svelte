@@ -4,11 +4,15 @@
 		import { customGradient } from '../../components/utils/ui';
 </script>
 
+
 <div class="text-center space-y-4  w-2/5 p-4 mx-auto">
-	<h1 class={`text-2xl font-bold`}>Projects</h1>
-	<p>
-		I thrive on solving complex challenges and finding elegant solutions that push the boundaries
-		of what's possible.
-	</p>
+	<div class="text-center">
+		<div class="text-gray-500">
+			<iconify-icon icon="ri:apps-2-add-line" height="40" width="40" />
+			<p>Experience Section</p>
+		</div>
+		<h1 class={`text-2xl font-bold`}>Stuff I've built</h1>
+	</div>
+
 </div>
 <ProjectsList />

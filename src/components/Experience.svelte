@@ -11,7 +11,7 @@
 			id: 1,
 			name: 'Pack',
 			description:
-				'YC backed tech startup which helps teams scale engineering velocity through its unique Pull Requests as a Service platform and delivers world class code quality so customers can ship faster.',
+				'Pack is the platform that democratizes coaching and mentoring by empowering companies to activate customized pathways that are open to everyone.',
 			tags: ['Svelte', 'Node'],
 			image: gitstart,
 			location: "Barcelona, Spain",
@@ -40,7 +40,7 @@
 			id: 2,
 			name: 'Sahil',
 			description:
-				'At Freelyformd we help businesses build an intelligently designed digital future. Tell us about your idea, and we’ll offer the most fitting tech solution.',
+				'Sahil is a logistics platform tailored to the needs of businesses in emerging markets, specifically targeting those with lower digital literacy rates or limited access to the internet. Sahil aims to enable these businesses to efficiently manage their supply chain operations, bridging the gap between traditional logistics and modern digital platforms.',
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Kigali, Rwanda",
@@ -72,7 +72,7 @@
 			id: 3,
 			name: 'G2i',
 			description:
-				'At Freelyformd we help businesses build an intelligently designed digital future. Tell us about your idea, and we’ll offer the most fitting tech solution.',
+				"As a vital part of G2i's vetting team, I helped expand our technical interview process to aid a client's rapid growth. We increased our team to 13 members, covering 16 time zones and working 7 days a week, to quickly provide 250 skilled developers. The client, initially overwhelmed with managing their candidate pool, was facing rapid business expansion.",
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Delray Beach, Florida",
@@ -104,7 +104,7 @@
 			id: 4,
 			name: 'GitStart',
 			description:
-				'At Freelyformd we help businesses build an intelligently designed digital future. Tell us about your idea, and we’ll offer the most fitting tech solution.',
+				'YC backed tech startup which helps teams scale engineering velocity through its unique Pull Requests as a Service platform and delivers world class code quality so customers can ship faster.',
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Kampala, Uganda",
@@ -167,11 +167,17 @@
 	];
 </script>
 
+
 <SectionWrapper bg="gray-100">
-	<div>
+	<div  class="space-y-4 p-8 mx-auto">
 		<div class="text-center">
-			<h3>Experience</h3>
+			<div class="text-gray-500">
+				<iconify-icon icon="ri:bard-line" height="40" width="40" />
+				<p>Experience Section</p>
+			</div>
+			<h3 class="text-xl">Places I've worked at</h3>
 		</div>
+		
 		<div class="flex flex-wrap p-4 gap-4">
 			{#each experiences as experience}
 				<ExperienceCard {experience} />

@@ -8,8 +8,8 @@
             description: "Planet of The Bugs is an interactive website that teaches developers how to debug applications in a gamified way.",
             tags: ["Svelte", "Node"],
             image: cover,
-            source: "",
-            demo: ""
+            source: "https://github.com/Emmanuel-Melon/planet-of-the-bugs",
+            demo: "https://planetofthebugs.xyz"
         },
         {
             id: 3,
@@ -17,8 +17,8 @@
             description: "Inspirers is a platform for people to pursue their dreams – personally, professionally and socially.",
             tags: ["Svelte", "Node"],
             image: cover,
-            source: "",
-            demo: ""
+            source: "https://github.com/Emmanuel-Melon/planet-of-the-bugs",
+            demo: "https://planetofthebugs.xyz"
         },
         {
             id: 3,
@@ -26,8 +26,8 @@
             description: "Inspirers is a platform for people to pursue their dreams – personally, professionally and socially.",
             tags: ["Svelte", "Node"],
             image: cover,
-            source: "",
-            demo: ""
+            source: "https://github.com/Emmanuel-Melon/planet-of-the-bugs",
+            demo: "https://planetofthebugs.xyz"
         },
         {
             id: 4,
@@ -35,8 +35,8 @@
             description: "Neno is a word guessing game that you can play with friends. Players receive a letter and are to guess 5 words that start with that letter.",
             tags: ["Svelte", "Node"],
             image: cover,
-            source: "",
-            demo: ""
+            source: "https://github.com/Emmanuel-Melon/planet-of-the-bugs",
+            demo: "https://planetofthebugs.xyz"
         }
     ];
     import ProjectOverview from "./ProjectOverview.svelte";

@@ -17,34 +17,36 @@
 	export let experience: Experience;
 </script>
 
-<div class="card lg:card-side bg-base-100 shadow">
+<div class="card lg:card-side bg-base-200 shadow-md">
 	<div class="card-body">
-		<div class="flex gap-4 items-center">
-			<iconify-icon icon="ri:briefcase-line" />
-			<div>
-				<div class="flex justify-between items-center">
+		<div class="flex gap-4 items-start">
+			<span class="text-gray-500"><iconify-icon height="40" width="40" icon="ri:building-2-line" /></span>
+			<div class="space-y-2">
+				<div class="space-y-2">
 					<h3 class="card-title text-sm">{experience.title}</h3>
+					<a class="link link-hover text-primary" href={experience.url}> {experience.name}</a>
 				</div>
-		
+				<div class="flex justify-between items-center text-gray-500">
+					<div class="flex gap-2">
+						<p class="flex gap-4 items-center">
+							<iconify-icon icon="ri:map-pin-line" />
+							{experience.location}
+						</p>
+					</div>
+					<div>
+						<p class="flex gap-4 items-center">
+							<iconify-icon icon="ri:calendar-line" />
+							{experience.duration}
+						</p>
+					</div>
+				</div>
+				<p>{experience.description}</p>
+				<div class="flex gap-2 items-center">
+					{#each experience.stack as { title }}
+						<div class="badge badge-lg">{title}</div>
+					{/each}
+				</div>
 			</div>
-		</div>
-		
-		<div class="space-y-2">
-			<a class="link link-hover text-gray-500" href={experience.url}
-			> {experience.name}</a
-		>
-			<div class="flex gap-2">
-				<p>{experience.location}</p>
-			</div>
-			<div>
-				<p>{experience.duration}</p>
-			</div>
-		</div>
-
-		<div class="flex gap-2 items-center">
-			{#each experience.stack as { title }}
-				<div class="badge badge-lg badge-outline">{title}</div>
-			{/each}
 		</div>
 	</div>
 </div>

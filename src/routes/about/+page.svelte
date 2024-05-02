@@ -23,16 +23,16 @@
 				<h3>Contact Me</h3>
 			</div>
 			<div class="flex gap-4">
-				<button class="btn btn-sm btn-square btn-ghost shadow-sm">
+				<button class="btn btn-sm btn-square btn-ghost shadow-md-sm">
 					<iconify-icon icon="ri:linkedin-box-line" height="20" width="20"/>
 				</button>
-				<button class="btn btn-sm btn-square btn-ghost shadow-sm">
+				<button class="btn btn-sm btn-square btn-ghost shadow-md-sm">
 					<iconify-icon icon="ri:twitter-x-line" height="20" width="20" />
 				</button>
-				<button class="btn btn-sm btn-square btn-ghost shadow-sm">
+				<button class="btn btn-sm btn-square btn-ghost shadow-md-sm">
 					<iconify-icon icon="ri:github-line" height="20" width="20" />
 				</button>
-				<button class="btn btn-sm btn-square btn-ghost shadow-sm">
+				<button class="btn btn-sm btn-square btn-ghost shadow-md-sm">
 					<iconify-icon icon="fa6-brands:hashnode" height="20" width="20" />
 				</button>
 			</div>
