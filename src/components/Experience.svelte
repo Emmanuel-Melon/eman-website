@@ -49,10 +49,10 @@
 			duration: 'November 2023 - Present',
 			stack: [
 				{
-					title: 'MongoDB',
+					title: 'GraphQL',
 				},
 				{
-					title: 'React.js'
+					title: 'Google Maps'
 				},
 				{
 					title: 'Docker'
@@ -62,9 +62,6 @@
 				},
 				{
 					title: 'TypeScript'
-				},
-				{
-					title: 'Mocha'
 				}
 			]
 		},
@@ -110,25 +107,22 @@
 			location: "Kampala, Uganda",
 			url: "",
 			title: 'Software Engineer',
-			duration: 'Jun 2020 - Apr 2021',
+			duration: 'May 2021 - Oct 2022',
 			stack: [
 				{
-					title: 'MongoDB',
+					title: 'GraphQL',
 				},
 				{
-					title: 'React.js'
+					title: 'Next.js'
 				},
 				{
 					title: 'Docker'
 				},
 				{
-					title: 'CD/CI'
+					title: 'AWS'
 				},
 				{
-					title: 'TypeScript'
-				},
-				{
-					title: 'Mocha'
+					title: 'Node.js'
 				}
 			]
 		},
