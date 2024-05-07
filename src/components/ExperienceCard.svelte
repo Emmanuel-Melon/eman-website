@@ -17,7 +17,7 @@
 	export let experience: Experience;
 </script>
 
-<div class="card lg:card-side bg-base-200 shadow-md">
+<div class="card lg:card-side bg-base-200 shadow-xl">
 	<div class="card-body">
 		<div class="flex gap-4 items-start">
 			<span class="text-gray-500"><iconify-icon height="40" width="40" icon="ri:building-2-line" /></span>
@@ -41,9 +41,9 @@
 					</div>
 				</div>
 				<p>{experience.description}</p>
-				<div class="flex gap-2 items-center">
+				<div class="flex gap-2 items-center ">
 					{#each experience.stack as { title }}
-						<div class="badge badge-lg">{title}</div>
+						<div class="badge badge-lg text-gray-500 shadow-xl">{title}</div>
 					{/each}
 				</div>
 			</div>

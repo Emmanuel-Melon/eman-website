@@ -44,7 +44,7 @@
 <div class="hero">
 	<div class="hero-content backdrop-blur-lg">
 		<div class="grow flex gap-4 p-8 mx-auto">
-			<div class="card shadow-md card-bordered w-80 bg-base-200">
+			<div class="card shadow-xl card-bordered w-80 bg-base-200">
 				<div class="card-body">
 					<div class="avatar">
 						<div class="w-24 rounded-full">
@@ -59,8 +59,8 @@
 					<p class="text-gray-500">Currently working at <span class="text-primary"><a href="https://thepack.tech/" target="_blank">Pack</a></span></p>
 				</div>
 			</div>
-			<div class="space-y-2">
-				<div class="card shadow-md card-bordered w-80 bg-base-200">
+			<div class="space-y-4">
+				<div class="card shadow-xl card-bordered w-80 bg-base-200">
 					<div class="card-body">
 						<p class="text-xl text-gray-500">What I do?</p>
 						<div class="flex items-center justify-between">
@@ -72,23 +72,23 @@
 					</div>
 				</div>
 				<div class="flex gap-4 items-center justify-between">
-					<a target="_blank" href="https://twitter.com/JunubiMan" class="shadow-md btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" href="https://twitter.com/JunubiMan" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:twitter-line" />
 					</a>
-					<a target="_blank" href="https://www.linkedin.com/in/emmanuel-gatwech/" class="shadow-md btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" href="https://www.linkedin.com/in/emmanuel-gatwech/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:linkedin-line" />
 					</a>
-					<a target="_blank" href="https://github.com/Emmanuel-Melon" class="shadow-md btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" href="https://github.com/Emmanuel-Melon" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:github-line" />
 					</a>
-					<a target="_blank" href="https://www.instagram.com/junubiman/" class="shadow-md btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" href="https://www.instagram.com/junubiman/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:instagram-line" />
 					</a>
-					<a target="_blank" href="https://eman.hashnode.dev/" class="shadow-md btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" href="https://eman.hashnode.dev/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:quill-pen-line" />
 					</a>
 				</div>
-				<div class="card shadow-md card-bordered w-80 bg-base-200">
+				<div class="card shadow-xl card-bordered w-80 bg-base-200">
 					<div class="card-body">
 						<div class="flex items-center justify-between">
 							<div>
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="card shadow-md card-bordered w-80 bg-base-200">
+			<div class="card shadow-xl card-bordered w-80 bg-base-200">
 				<div class="card-body">
 					<div class="text-center text-gray-500">
 						<iconify-icon icon="ri:chat-1-line" height="40" width="40" />

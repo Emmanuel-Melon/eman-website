@@ -8,7 +8,7 @@
 	*/
 </script>
 
-<div class="card lg:card-side bg-base-200 shadow-md">
+<div class="card lg:card-side bg-base-200 shadow-xl">
 
 	<div class="card-body bg-base-100">
 		<div class="flex items-start gap-4">

@@ -7,8 +7,8 @@
 </script>
 
 <svelte:head>
-	<title>Eman</title>
-	<meta name="description" content="Emmanuel Gatwech" />
+	<title>Emmanuel Gatwech</title>
+	<meta name="description" content="Hi, my name is Emmanuel Gatwech and I am a software developer with over four years of experience and a passion for building innovative solutions that address real-world problems." />
 </svelte:head>
 <header>
 	<Header />
