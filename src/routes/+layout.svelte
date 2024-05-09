@@ -1,5 +1,4 @@
-<script>
-	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
+<script lang="ts">
 	import '../styles.css';
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
@@ -8,7 +7,10 @@
 
 <svelte:head>
 	<title>Emmanuel Gatwech</title>
-	<meta name="description" content="Hi, my name is Emmanuel Gatwech and I am a software developer with over four years of experience and a passion for building innovative solutions that address real-world problems." />
+	<meta
+		name="description"
+		content="Hi, my name is Emmanuel Gatwech and I am a software developer from South Sudan. I have over four years of experience and a passion for building innovative solutions that address real-world problems."
+	/>
 </svelte:head>
 <header>
 	<Header />

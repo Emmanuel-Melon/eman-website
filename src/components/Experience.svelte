@@ -15,7 +15,7 @@
 			tags: ['Svelte', 'Node'],
 			image: gitstart,
 			location: "Barcelona, Spain",
-			url: "",
+			url: "https://thepack.tech/",
 			title: 'FullStack Engineer',
 			duration: 'May 2024 - Present',
 			stack: [
@@ -44,7 +44,7 @@
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Kigali, Rwanda",
-			url: "",
+			url: "https://sahil.app/",
 			title: 'Engineering Lead',
 			duration: 'November 2023 - Present',
 			stack: [
@@ -73,7 +73,7 @@
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Delray Beach, Florida",
-			url: "",
+			url: "https://www.g2i.co/",
 			title: 'Software Engineer',
 			duration: 'April 2024 - Present',
 			stack: [
@@ -105,7 +105,7 @@
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Kampala, Uganda",
-			url: "",
+			url: "https://gitstart.com/",
 			title: 'Software Engineer',
 			duration: 'May 2021 - Oct 2022',
 			stack: [
@@ -134,7 +134,7 @@
 			tags: ['Svelte', 'Node'],
 			image: freelyformd,
 			location: "Kampala, Uganda",
-			url: "",
+			url: "https://freelyformd.com/",
 			title: 'Software Engineer',
 			duration: 'Jun 2020 - Apr 2021',
 			stack: [

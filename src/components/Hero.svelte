@@ -48,7 +48,7 @@
 				<div class="card-body">
 					<div class="avatar">
 						<div class="w-24 rounded-full">
-							<img src="https://avatars.githubusercontent.com/u/21015204?v=4" />
+							<img src="https://avatars.githubusercontent.com/u/21015204?v=4" alt="A headshot of Emmanuel Gatwech" />
 						</div>
 					</div>
 					<h1 class={`card-title text-2xl`}>Hi, I’m Emmanuel Gatwech!</h1>
@@ -72,19 +72,19 @@
 					</div>
 				</div>
 				<div class="flex gap-4 items-center justify-between">
-					<a target="_blank" href="https://twitter.com/JunubiMan" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank"  aria-label="Emmanuel Gatwech on Twitter" href="https://twitter.com/JunubiMan" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:twitter-line" />
 					</a>
-					<a target="_blank" href="https://www.linkedin.com/in/emmanuel-gatwech/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" aria-label="Emmanuel Gatwech on LinkedIn" href="https://www.linkedin.com/in/emmanuel-gatwech/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:linkedin-line" />
 					</a>
-					<a target="_blank" href="https://github.com/Emmanuel-Melon" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" aria-label="Emmanuel Gatwech on GitHub" href="https://github.com/Emmanuel-Melon" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:github-line" />
 					</a>
-					<a target="_blank" href="https://www.instagram.com/junubiman/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" aria-label="Emmanuel Gatwech on Instagram" href="https://www.instagram.com/junubiman/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:instagram-line" />
 					</a>
-					<a target="_blank" href="https://eman.hashnode.dev/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
+					<a target="_blank" aria-label="Emmanuel Gatwech's Blog on Hashnde" href="https://eman.hashnode.dev/" class="shadow-xl btn btn-squared rounded-xl bg-base-200 w-fit p-4 h-fit">
 						<iconify-icon icon="ri:quill-pen-line" />
 					</a>
 				</div>
