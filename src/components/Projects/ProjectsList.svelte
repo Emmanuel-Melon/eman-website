@@ -1,6 +1,6 @@
 <script>
     import 'iconify-icon';
-	import cover from "$lib/images/cover.png";
+    import cover from "$lib/images/cover.png";
     const projects = [
         {
             id: 1,
@@ -12,7 +12,7 @@
             demo: "https://planetofthebugs.xyz"
         },
         {
-            id: 3,
+            id: 2,
             title: "Sahil",
             description: "Inspirers is a platform for people to pursue their dreams – personally, professionally and socially.",
             tags: ["Svelte", "Node"],
@@ -44,9 +44,11 @@
 </script>
 
 <SectionWrapper>
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-col space-y-4">
         {#each projects as project}
-        <ProjectOverview {project} />
-       {/each}
+            <div class="w-full">
+                <ProjectOverview {project} />
+            </div>
+        {/each}
     </div>
 </SectionWrapper>
