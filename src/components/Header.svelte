@@ -2,6 +2,7 @@
 	import 'iconify-icon';
 	import { page } from '$app/stores';
 	let isMenuOpen = false;
+	let wasMenuOpen = false;
 
 	const links = [
 		{
@@ -31,15 +32,16 @@
 	];
 
 	function toggleMenu() {
+		wasMenuOpen = isMenuOpen;
 		isMenuOpen = !isMenuOpen;
 	}
 
 	$: activeUrl = $page.url.pathname;
 </script>
 
-<header class="bg-base-200 w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-2/5 mx-auto px-4 my-4 relative p-1 rounded-full">
-	<div class="absolute inset-2 bg-gradient-to-r from-primary to-secondary opacity-30 rounded-full"></div>
-	<div class="relative z-10 rounded-full">
+<header class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-2/5 mx-auto px-4 my-4 relative p-1 {isMenuOpen ? 'bg-base-200' : 'bg-base-200 rounded-full'}">
+	<div class="absolute inset-2 bg-gradient-to-r from-primary to-secondary opacity-30 rounded-full transition-opacity duration-300 {isMenuOpen || wasMenuOpen ? 'opacity-0' : 'opacity-30'}"></div>
+	<div class="{isMenuOpen ? '' : 'relative z-10 rounded-full'}">
 		<nav class="navbar items-center justify-between">
 			<div class="flex-1 md:hidden">
 				<a href="/" class="text-xl font-bold">Eman</a>
@@ -79,8 +81,8 @@
 			<div class="md:hidden">
 				<ul class="menu w-full">
 					{#each links as { icon, title, href }}
-						<li><a class="text-gray-500" class:active={activeUrl === href} {href} on:click={toggleMenu}><iconify-icon {icon} />{title}</a></li>
-					{/each}
+						<li><a class="text-gray-500 {activeUrl === href ? 'bg-secondary rounded-full' : ''}" class:active={activeUrl === href} {href} on:click={toggleMenu}><iconify-icon {icon} />{title}</a></li>
+						{/each}
 				</ul>
 			</div>
 		{/if}

@@ -10,7 +10,7 @@
 		<div class="card-body">
 			<div class="flex flex-col sm:flex-row items-start gap-4">
 				<div class="text-gray-500 mb-2 sm:mb-0">
-					<iconify-icon icon="ri:code-s-slash-line" height="40" width="40"/> 
+					<iconify-icon icon="ri:code-s-slash-line" height="30" width="30"/> 
 				</div>
 				<div class="space-y-2 w-full">
 					<h2 class="card-title text-sm sm:text-base">
