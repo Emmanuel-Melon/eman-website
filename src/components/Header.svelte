@@ -33,20 +33,32 @@
 	$: activeUrl = $page.url.pathname;
 </script>
 
-<div class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-2/5 mx-auto px-4 my-4 relative {isMenuOpen ? 'bg-base-200' : 'bg-base-200 rounded-full'}">
-	<div class="absolute inset-2 bg-gradient-to-r from-primary to-secondary opacity-30 {isMenuOpen ? '' : 'rounded-full'} transition-opacity duration-300 {isMenuOpen || wasMenuOpen ? 'opacity-0' : 'opacity-30'}"></div>
-	<div class="{isMenuOpen ? '' : 'relative z-10 rounded-full'}">
+<div
+	class="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-2/5 mx-auto px-4 my-4 relative {isMenuOpen
+		? 'bg-base-200'
+		: 'bg-base-200 rounded-full'}"
+>
+	<div
+		class="absolute inset-2 bg-gradient-to-r from-primary to-secondary opacity-30 {isMenuOpen
+			? ''
+			: 'rounded-full'} transition-opacity duration-300 {isMenuOpen || wasMenuOpen
+			? 'opacity-0'
+			: 'opacity-30'}"
+	/>
+	<div class={isMenuOpen ? '' : 'relative z-10 rounded-full'}>
 		<nav class="navbar items-center justify-between">
 			<div class="flex-1 md:hidden">
 				<a href="/" class="text-xl font-bold">Eman</a>
 			</div>
 			<div class="flex-none hidden md:block mx-auto">
-				<ul class="menu menu-sm menu-horizontal px-1 gap-2">
+				<ul class="menu menu-sm menu-horizontal px-1 gap-2 py-2">
 					{#each links as { icon, title, href }}
 						<li>
-							<a 
-								{href} 
-								class="{activeUrl === href ? 'bg-white' : 'bg-transparent'} transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95"
+							<a
+								{href}
+								class="{activeUrl === href
+									? 'bg-white'
+									: 'bg-transparent'} transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 rounded-full"
 								on:click={() => {
 									if (activeUrl !== href) {
 										const oldActive = document.querySelector('.bg-secondary');
@@ -58,8 +70,13 @@
 									}
 								}}
 							>
-								<iconify-icon {icon} class="transition-transform duration-300 ease-in-out group-hover:rotate-12" />
-								<span class="transition-colors duration-300 ease-in-out group-hover:text-primary">{title}</span>
+								<iconify-icon
+									{icon}
+									class="transition-transform duration-300 ease-in-out group-hover:rotate-12"
+								/>
+								<span class="transition-colors duration-300 ease-in-out group-hover:text-primary"
+									>{title}</span
+								>
 							</a>
 						</li>
 					{/each}
@@ -73,9 +90,16 @@
 		</nav>
 		{#if isMenuOpen}
 			<div class="md:hidden">
-				<ul class="menu w-full">
+				<ul class="menu w-full py-2">
 					{#each links as { icon, title, href }}
-						<li><a class="text-gray-500 rounded-full {activeUrl === href ? 'bg-white' : ''}" class:active={activeUrl === href} {href} on:click={toggleMenu}><iconify-icon {icon} />{title}</a></li>
+						<li>
+							<a
+								class="text-gray-500 rounded-full {activeUrl === href ? 'bg-white' : ''}"
+								class:active={activeUrl === href}
+								{href}
+								on:click={toggleMenu}><iconify-icon {icon} />{title}</a
+							>
+						</li>
 					{/each}
 				</ul>
 			</div>

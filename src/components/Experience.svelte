@@ -6,6 +6,14 @@
 	import SectionWrapper from './SectionWrapper.svelte';
 	import ExperienceCard from './ExperienceCard.svelte';
 	import { customGradient } from './utils/ui';
+	import { fade, fly } from 'svelte/transition';
+	import { onMount } from 'svelte';
+
+	let visible = false;
+	onMount(() => {
+		visible = true;
+	});
+
 	const experiences = [
 		{
 			id: 1,
@@ -164,13 +172,29 @@
 
 <SectionWrapper bg="gray-100">
 	<div  class="space-y-2 mx-auto">
-		<div class="text-center">
-			<div class="text-gray-500">
-				<iconify-icon icon="ri:bard-line" height="40" width="40" />
-				<p>Experience Section</p>
+		{#if visible}
+		<div class="text-center space-y-4 mx-auto mb-4" in:fade={{ duration: 300, delay: 150 }}>
+			<div class="text-center">
+				<div class="text-neutral" in:fly={{ y: 20, duration: 300, delay: 300 }}>
+					<iconify-icon icon="ri:building-4-line" height="30" width="30" />
+				</div>
+				<h3
+					class={`text-2xl md:text-2xl lg:text-2xl font-bold mx-auto`}
+					in:fly={{ y: 20, duration: 300, delay: 450 }}
+				>
+					Places I've worked at
+				</h3>
+				<div class="divider">Experience</div>
 			</div>
-			<h3 class="text-xl">Places I've worked at</h3>
 		</div>
+	{/if}
+	<div class="flex flex-col md:flex-row gap-4 mx-auto">
+        <div class="text-gray-500 mb-4 text-center">
+            <p class="text-sm md:text-base">
+                I've had the pleasure of working with some amazing companies and individuals to build some amazing products.
+            </p>
+        </div>
+    </div>
 		<div class="flex flex-wrap gap-4 p-2 sm:p-0">
 			{#each experiences as experience}
 				<ExperienceCard {experience} />

@@ -17,11 +17,10 @@
 		}
 	];
 </script>
-<footer class="footer footer-center p-10">
+<footer class="footer footer-center p-8 bg-white border-t-2 border-gray-200 mt-8">
   <div>
-    <iconify-icon icon="ri:plug-2-line" height="50" target="_blank" width="50" />
     <p class="font-bold">
-      The Energy Man
+      Emmanuel Gatwech
     </p> 
     <p>Copyright © 2023 - All right reserved</p>
   </div> 
