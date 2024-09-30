@@ -1,44 +1,6 @@
 <script>
-	import SectionWrapper from './SectionWrapper.svelte';
-	import { customGradient } from './utils/ui';
 	import 'iconify-icon';
-	const links = [
-		{
-			icon: 'ri:linkedin-box-line',
-			path: 'https://www.linkedin.com/in/emmanuel-gatwech/',
-			title: 'LinkedIn'
-		},
-		{
-			icon: 'ri:github-line',
-			path: 'https://github.com/Emmanuel-Melon',
-			title: 'GitHub'
-		},
-		{
-			icon: 'fa6-brands:hashnode',
-			path: 'https://eman.hashnode.dev/',
-			title: 'Hashnode'
-		},
-		{
-			icon: 'ri:stack-overflow-line',
-			path: 'https://stackoverflow.com/users/6583352/emmanuel-gabriel',
-			title: 'Stack Overflow'
-		}
-	];
-
-	const interests = [
-		{
-			name: 'Open Source',
-			icon: 'ri:open-source-line'
-		},
-		{
-			name: 'Technical Writing',
-			icon: 'ri:article-line'
-		},
-		{
-			name: 'Mentoring',
-			icon: 'ri:graduation-cap-line'
-		}
-	];
+	import Card from './Card.svelte';
 </script>
 
 <div class="hero">
@@ -46,7 +8,7 @@
 		<div class="grow flex flex-col lg:flex-row gap-4 p-2 lg:p-8 mx-auto">
 			<div class="card w-full lg:w-96 h-fit shadow-md relative p-1">
 				<div class="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-30 rounded-lg"></div>
-				<div class="card bg-base-200 relative z-10">
+				<div class="card bg-white relative z-10">
 					<div class="card-body">
 						<div class="avatar">
 							<div class="w-24 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
@@ -63,7 +25,7 @@
 				</div>
 			</div>
 			<div class="space-y-4 w-full lg:w-80">
-				<div class="card shadow-md card-bordered bg-base-200">
+				<div class="card shadow-md card-bordered bg-white">
 					<div class="card-body">
 						<p class="text-lg lg:text-xl text-gray-500">What I do?</p>
 						<div class="flex items-center justify-between">
@@ -75,23 +37,23 @@
 					</div>
 				</div>
 				<div class="flex flex-wrap gap-2 lg:gap-4 items-center justify-center lg:justify-between">
-					<a target="_blank" aria-label="Emmanuel Gatwech on Twitter" href="https://twitter.com/JunubiMan" class="btn btn-ghost btn-squared rounded-xl bg-base-200 w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
+					<a target="_blank" aria-label="Emmanuel Gatwech on Twitter" href="https://twitter.com/JunubiMan" class="btn btn-ghost btn-squared rounded-xl bg-white w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
 						<iconify-icon icon="ri:twitter-line" />
 					</a>
-					<a target="_blank" aria-label="Emmanuel Gatwech on LinkedIn" href="https://www.linkedin.com/in/emmanuel-gatwech/" class="btn btn-ghost btn-squared rounded-xl bg-base-200 w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
+					<a target="_blank" aria-label="Emmanuel Gatwech on LinkedIn" href="https://www.linkedin.com/in/emmanuel-gatwech/" class="btn btn-ghost btn-squared rounded-xl bg-white w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
 						<iconify-icon icon="ri:linkedin-line" />
 					</a>
-					<a target="_blank" aria-label="Emmanuel Gatwech on GitHub" href="https://github.com/Emmanuel-Melon" class="btn btn-ghost btn-squared rounded-xl bg-base-200 w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
+					<a target="_blank" aria-label="Emmanuel Gatwech on GitHub" href="https://github.com/Emmanuel-Melon" class="btn btn-ghost btn-squared rounded-xl bg-white w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
 						<iconify-icon icon="ri:github-line" />
 					</a>
-					<a target="_blank" aria-label="Emmanuel Gatwech on Instagram" href="https://www.instagram.com/junubiman/" class="btn btn-ghost btn-squared rounded-xl bg-base-200 w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
+					<a target="_blank" aria-label="Emmanuel Gatwech on Instagram" href="https://www.instagram.com/junubiman/" class="btn btn-ghost btn-squared rounded-xl bg-white w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
 						<iconify-icon icon="ri:instagram-line" />
 					</a>
-					<a target="_blank" aria-label="Emmanuel Gatwech's Blog on Hashnde" href="https://eman.hashnode.dev/" class="btn btn-ghost btn-squared rounded-xl bg-base-200 w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
+					<a target="_blank" aria-label="Emmanuel Gatwech's Blog on Hashnde" href="https://eman.hashnode.dev/" class="btn btn-ghost btn-squared rounded-xl bg-white w-10 h-10 lg:w-12 lg:h-12 p-2 lg:p-3">
 						<iconify-icon icon="ri:quill-pen-line" />
 					</a>
 				</div>
-				<div class="card shadow-md card-bordered bg-base-200">
+				<div class="card shadow-md card-bordered bg-white">
 					<div class="card-body">
 						<div class="flex items-center justify-between">
 							<div>
@@ -102,21 +64,6 @@
 								<iconify-icon icon="ri:map-pin-line" height="30" width="30" class="lg:h-10 lg:w-10"/>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="card shadow-md card-bordered w-full lg:w-80 bg-base-200">
-				<div class="card-body">
-					<div class="text-center text-gray-500">
-						<iconify-icon icon="ri:chat-1-line" height="30" width="30" class="lg:h-10 lg:w-10 mx-auto" />
-						<p class="text-lg lg:text-xl text-gray-500 mt-2">Random things about me</p>
-					</div>
-
-					<div class="flex gap-2 lg:gap-4 flex-wrap justify-center">
-						<div class="badge badge-sm sm:badge-md text-gray-500 shadow-xl">Startup Founder</div>
-						<div class="badge badge-sm sm:badge-md text-gray-500 shadow-xl">Amateur Chef</div>
-						<div class="badge badge-sm sm:badge-md text-gray-500 shadow-xl">Digital Nomad</div>
-						<div class="badge badge-sm sm:badge-md text-gray-500 shadow-xl">Fragrance Connoisseur</div>
 					</div>
 				</div>
 			</div>

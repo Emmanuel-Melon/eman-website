@@ -44,7 +44,7 @@
 </script>
 
 <SectionWrapper>
-    <div class="flex flex-col space-y-4">
+    <div class="flex flex-col space-y-2 w-full">
         {#each projects as project}
             <div class="w-full p-2">
                 <ProjectOverview {project} />

@@ -163,7 +163,7 @@
 
 
 <SectionWrapper bg="gray-100">
-	<div  class="space-y-4 mx-auto">
+	<div  class="space-y-2 mx-auto">
 		<div class="text-center">
 			<div class="text-gray-500">
 				<iconify-icon icon="ri:bard-line" height="40" width="40" />
@@ -171,7 +171,6 @@
 			</div>
 			<h3 class="text-xl">Places I've worked at</h3>
 		</div>
-		
 		<div class="flex flex-wrap gap-4 p-2 sm:p-0">
 			{#each experiences as experience}
 				<ExperienceCard {experience} />
