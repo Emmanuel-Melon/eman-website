@@ -3,7 +3,8 @@
 html,
 body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    
+    background-color: #ffffff;
+background-image: url("/ag-square.png");
 }
 
 h1,
@@ -15,3 +16,4 @@ h6 {
     font-family: "Righteous", Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
