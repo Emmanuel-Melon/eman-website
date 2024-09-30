@@ -5,9 +5,9 @@
 </script>
 
 <Card>
-	<div class="flex flex-col sm:flex-row items-start gap-4 w-full">
-		<div class="mb-2 sm:mb-0">
-			<iconify-icon icon="ri:code-s-slash-line" height="30" width="30"/> 
+	<div class="flex flex-col items-start gap-4 w-full">
+		<div class="w-full mb-4">
+			<img src={project.image} alt={project.title} class="w-full h-auto rounded-lg shadow-md border-2 border-gray-200" />
 		</div>
 		<div class="space-y-2 w-full">
 			<h2 class="card-title">

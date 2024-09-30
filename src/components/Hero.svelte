@@ -19,7 +19,7 @@
 				<div
 					class="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-30 rounded-lg"
 				/>
-				<div class="card bg-white relative z-10 shadow-xl card-bordered border-secondary border-2">
+				<div class="card bg-white relative z-10 shadow-xl card-bordered border-primary border-2">
 					<div class="card-body flex flex-col items-center sm:items-start space-y-2">
 						<div class="avatar flex justify-center sm:justify-start w-full">
 							<div class="w-24 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2">
